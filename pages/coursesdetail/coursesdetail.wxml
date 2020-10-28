@@ -1,0 +1,26 @@
+<!--pages/coursesdetail/coursesdetail.wxml-->
+<!-- <text>pages/coursesdetail/coursesdetail.wxml</text> -->
+
+<view class="container">
+  <view class="courseinfo bgcWhite">课程信息</view>
+  <view class="courseinfo-box bgcWhite">
+    <view class="coursetitle">
+      <text class="courseType">班</text>
+      <text class="courseTitle">新人小课包</text>
+    </view>
+    <view class="schoolname">开课校区：美术教育校区</view>
+    <view class="courseother">
+      <view class="grade">年级：不限</view>
+      <view class="xueyear">学年：2020</view>
+      <view class="xueyear">学季：不限</view>
+    </view>
+    <view class="subjects">科目：口才</view>
+  </view>
+  <view class="lineview"></view>
+  <view class="courseinfo bgcWhite">收费信息</view>
+  <view class="courseinfo-box bgcWhite">
+    <view class="tuition">学费：299元/8节课</view>
+  </view>
+
+  <view class="consult bgcBlue colorwhite">立即咨询</view>
+</view>

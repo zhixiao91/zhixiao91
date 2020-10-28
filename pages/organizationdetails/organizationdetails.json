@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "机构详情",
+  "usingComponents": {
+    "titlecontent": "/components/titlecontent/titlecontent"
+  }
+}

@@ -1,0 +1,24 @@
+<!--pages/tradingrecord/tradingrecord.wxml-->
+<!-- <text>pages/tradingrecord/tradingrecord.wxml</text> -->
+
+<view class="container">
+  <block wx:for="{{[1,2,3]}}" wx:key="itemkey">
+    <view class="item" bindtap="onTradingDetailsClick">
+      <view class="coursesview">
+        <text class="coursname">跆拳道1</text>
+        <view>
+          <text class="time">2020-09-17</text>
+          <text class="iconfont icon-jiantou"></text>
+        </view>
+      </view>
+      <view class="lineview"></view>
+      <view class="payinfoview">
+        <view class="leftview">
+          <view class="oneview colorgray">学员：<text class="colorblack">张三</text></view>
+          <view class="colorgray">实付金额：<text class="colorred">19000.00</text></view>
+        </view>
+        <view class="applyview">报名</view>
+      </view>
+    </view>
+  </block>
+</view>

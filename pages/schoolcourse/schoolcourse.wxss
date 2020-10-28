@@ -1,0 +1,66 @@
+/* pages/schoolcourse/schoolcourse.wxss */
+
+.swiper-tab {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
+  line-height: 80rpx;
+  border-bottom: 2rpx solid #efefef;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.tab-item {
+  flex: 1;
+  font-size: 30rpx;
+  display: inline-block;
+  color: #8a8a8a;
+}
+
+.on {
+  color: #1296db;
+  border-bottom: 4rpx solid #1296db;
+}
+.swiper {
+  display: block;
+  width: 100%;
+  margin-top: 80rpx;
+}
+
+.swiper scroll-view {
+  height: 100%;
+  background-color: #fff;
+}
+
+.coursbox {
+  padding: 20rpx 20rpx 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.coursbox .coursboxitem {
+  width: 48%;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20rpx;
+  box-shadow:1px 1px 6px #909090;
+  border-radius: 10rpx;
+}
+
+.coursbox .coursboxitem image {
+  background-color: #f40;
+  width: 100%;
+  height: 300rpx;
+  border-radius: 10rpx 10rpx 0 0;
+}
+
+.coursbox .coursboxitem .courseprice {
+  display: flex;
+  flex-direction: column;
+}
+

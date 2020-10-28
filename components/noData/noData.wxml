@@ -1,0 +1,6 @@
+<!--components/noData/noData.wxml-->
+<!-- <text>components/noData/noData.wxml</text> -->
+
+<view class="noData">
+  <image></image>
+</view>

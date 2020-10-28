@@ -1,0 +1,151 @@
+/* pages/organizationdetails/organizationdetails.wxss */
+
+page {
+  background-color: #efefef;
+}
+
+.container {
+  overflow: hidden;
+}
+
+.organizationhead {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 2rpx solid #ededed;
+}
+
+.organizationhead .organization-logo {
+  padding: 20rpx;
+}
+
+.organizationhead .organization-logo image {
+  display: block;
+  background-color: red;
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 60rpx;
+}
+
+.organizationhead .organization-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.organizationhead .organization-name .name {
+  padding-bottom: 10rpx;
+  font-size: 32rpx;
+}
+
+.organizationhead .organization-name .subtitle {
+  padding-top: 10rpx;
+  font-size: 28rpx;
+}
+
+.organizationAddess {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 32rpx;
+  background-color: #fff;
+  padding: 20rpx 0;
+}
+
+.organizationAddess .address {
+  font-size: 50rpx;
+  color: #1296db;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 20rpx;
+}
+
+.organizationAddess .addressdetail {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rpx;
+  position: absolute;
+  left: 60rpx;
+  right: 100rpx;
+}
+
+.organizationAddess .address .addressdetail text {
+  font-size: 28rpx;
+  color: black;
+}
+
+.organizationAddess .addressdetail .addressinfo {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: rgb(51, 51, 51);
+}
+
+.organizationAddess .phone {
+  color: #1296db;
+  font-size: 60rpx;
+  padding: 0 20rpx;
+}
+
+.introduction {
+  margin-top: 20rpx;
+  background-color: #fff;
+}
+
+.title {
+  font-size: 32rpx;
+  padding-left: 20rpx;
+  border-bottom: 2rpx solid #efefef;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+
+.introduction .introductiontext {
+  font-size: 28rpx;
+  color: rgb(51, 51, 51);
+  padding: 20rpx;
+  text-indent: 2em;
+}
+
+/* 老师模块 */
+.teacherbox .teacherbox-spacing .scroll-view-H {
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+  width: 100%;
+}
+.teacherbox .teacherbox-spacing .teacheritem {
+  display: inline-block;
+  width: 30%;
+  padding: 20rpx 10rpx 20rpx;
+}
+
+.teacherbox .teacherbox-spacing .teacheritem .teacherintroduce {
+  display: flex;
+  flex-direction: column;
+}
+
+.teacherbox .teacherbox-spacing .teacheritem image {
+  width: 100%;
+  height: 290rpx;
+  background-color: #f40;
+}
+
+.teacherbox .teacherbox-spacing .teacheritem .teacherintroduce .introduce {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* 学校相册 */
+.schoolphoto {
+  background-color: #fff;
+  margin-top: 20rpx;
+}
+
+.schoolphoto .imageviews {
+  width: 100%;
+  height: 400rpx;
+  background-color: yellow;
+}

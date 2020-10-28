@@ -1,0 +1,52 @@
+<!--pages/organizationdetails/organizationdetails.wxml-->
+<!-- <text>pages/organizationdetails/organizationdetails.wxml</text> -->
+<view class="container">
+  <view class="organizationhead bgcWhite">
+    <view class="organization-logo"><image></image></view>
+    <view class="organization-name">
+      <text class="name">{{schoolinformation.schoolname}}</text>
+      <text class="subtitle">{{schoolinformation.schoolsubtitle}}</text>
+    </view>
+  </view>
+  <view class="organizationAddess">
+    <view class="iconfont icon-dizhi address">
+      <view class="addressdetail">
+        <text>{{schoolinformation.schoolname}}</text>
+        <text class="addressinfo">{{schoolinformation.address}}</text>
+      </view>
+    </view>
+    <view class="iconfont icon-icon_dianhua phone" bindtap="onCallTelClick"></view>
+  </view>
+  <!-- 学校简介模块 -->
+  <view class="introduction">
+    <!-- <titlecontent>学校简介</titlecontent> -->
+    <view class="title">学校简介</view>
+    <view class="introductiontext">{{schoolinformation.introduction}}</view>
+  </view>
+
+  <!-- 名师模块 -->
+  <view class="teacherbox bgcWhite mgt10">
+    <view class="title">名师</view>
+    <view class="teacherbox-spacing">
+      <scroll-view class="scroll-view-H" scroll-x="true">
+        <block wx:for="{{[1,1,1,1,1,1,1,1]}}" wx:key="key">
+          <view class="teacheritem">
+            <image></image>
+            <view class="teacherintroduce">
+              <text class="fz15">张三</text>
+              <text class="fz12 colorgray introduce">简介:高级职称教师</text>
+            </view>
+          </view>
+        </block>
+      </scroll-view>
+    </view>
+  </view>
+
+  <!-- 学校相册模块 -->
+  <view class="schoolphoto">
+    <view class="title">学校相册</view>
+    <view class="imageviews" wx:for="{{[1,1,1,1]}}" wx:key="imgkey">
+      <image></image>
+    </view>
+  </view>
+</view>

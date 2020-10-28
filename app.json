@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/message/message",
+    "pages/management/management",
+    "pages/mine/mine",
+    "pages/msgdetails/msgdetails",
+    "pages/tradingrecord/tradingrecord",
+    "pages/signcourses/signcourses",
+    "pages/courseslist/courseslist",
+    "pages/login/login",
+    "pages/organizationdetails/organizationdetails",
+    "pages/schoolcourse/schoolcourse",
+    "pages/coursesdetail/coursesdetail",
+    "pages/consumptionrecord/consumptionrecord",
+    "pages/applyleave/applyleave",
+    "pages/tradingdetail/tradingdetail",
+    "pages/homework/homework"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1296db",
+    "navigationBarTitleText": "拂晓家",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "/assets/messageunselected.png",
+        "selectedIconPath": "/assets/messageselected.png"
+      },
+      {
+        "pagePath": "pages/management/management",
+        "text": "服务",
+        "iconPath": "/assets/operationunselected.png",
+        "selectedIconPath": "/assets/operationselected.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "/assets/mineunselected.png",
+        "selectedIconPath": "/assets/mineselected.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

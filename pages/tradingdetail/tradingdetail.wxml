@@ -1,0 +1,27 @@
+<!--pages/tradingdetail/tradingdetail.wxml-->
+<!-- <text>pages/tradingdetail/tradingdetail.wxml</text> -->
+<view class="wrap">
+  <view class="courseinfo bgcWhite">
+    <view class="coursename h40">课程：素描基础</view>
+    <view class="fz14 colorgray mgt5">学员：<text class="colorblack">张三</text></view>
+    <view class="fz14 colorgray mgt5">订单号：<text class="colorblack">7161</text></view>
+  </view>
+  <view class="tradingtitle bgcWhite mgt10">
+    <view class="coursename h40">交易详情</view>
+    <view wx:for="{{[1,1,1,1]}}" wx:key="key" class="pdt5 fz14 colorgray">
+      <view class="tradingdetail">跆拳道（按时间收费）（1年）<text class="colorred abright">1000.00</text>
+      </view>
+    </view>
+  </view>
+  <view class="paydetailbox bgcWhite mgt10 fz14">
+    <view class="coursename h40">支付详情</view>
+    <view class="payinfo colorgray">
+      <view class="mgb5">应交金额：<text class="colorred abright">10000.00</text></view>
+      <view class="mgb5">实缴金额：<text class="colorred abright">10000.00</text></view>
+      <view class="mgb5">欠费金额：<text class="colorred abright">0.00</text></view>
+      <view class="mgb5">经办学校：<text class="colorblack abright">美术教育</text></view>
+      <view class="mgb5">经办时间：<text class="colorblack abright">2020-10-24</text></view>
+      <view class="mgb5">经办人：<text class="colorblack abright">李四</text></view>
+    </view>
+  </view>
+</view>

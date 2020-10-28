@@ -1,0 +1,99 @@
+/* pages/message/message.wxss */
+
+.container {
+  width: 100%;
+}
+
+.noticetypeview {
+  width: 100%;
+  background-color: #fff;
+  height: 100rpx;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.noticetypeview .typeitem {
+  border: 2rpx solid #cbcbcb;
+  height: 60rpx;
+  width: 80rpx;
+  text-align: center;
+  font-size: 28rpx;
+  line-height: 60rpx;
+  border-radius: 10rpx;
+}
+
+.noticetypeview .selectbc {
+  color: #fff;
+  background-color: #1296db;
+}
+
+/* 列表 */
+.messagelistview {
+  margin-top: 100rpx;
+  padding: 0 20rpx;
+}
+
+.messagelistview .item {
+  border-bottom: 2rpx solid #ededed;
+  padding: 30rpx 0;
+  position: relative;/*父元素设置相对定位*/
+  height: 150rpx;
+}
+
+.messagelistview .item .leftview {
+  position: absolute;/*子元素绝对定位*/
+  left: 0;
+  width: 140rpx;
+  height: 140rpx;
+  background-color: #f40;
+}
+
+.messagelistview .item .leftview .mesagelogo {
+  width: 140rpx;
+  height: 140rpx;
+}
+
+.messagelistview .item .centerview {
+  padding: 0 20rpx;
+  position: absolute;/*子元素绝对定位*/
+  left: 140rpx;
+  right: 190rpx;
+  margin-top: -10rpx;
+  height: 160rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.messagelistview .item .centerview .noticetitle {
+  font-size: 30rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.messagelistview .item .centerview .noticestudents {
+  font-size: 28rpx;
+  color: #696666;
+}
+
+.messagelistview .item .centerview .noticestudents .name {
+  font-size: 28rpx;
+  color: rgb(22, 19, 19);
+}
+
+.messagelistview .item .centerview .noticecontent {
+  font-size: 28rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.messagelistview .item .rightview {
+  position: absolute;/*子元素绝对定位*/
+  right: 0;
+  text-align: right;
+}

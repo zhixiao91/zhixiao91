@@ -1,0 +1,46 @@
+/* pages/consumptionrecord/consumptionrecord.wxss */
+
+page {
+  background-color: #efefef;
+}
+
+.course {
+  padding: 0 20rpx;
+  background-color: #fff;
+  margin-bottom: 20rpx;
+}
+
+.course .coursetitle {
+  height: 80rpx;
+  line-height: 80rpx;
+}
+
+.course .courseinfo {
+  padding: 20rpx 0;
+}
+
+.course .courseinfo .info-left {
+  color: #919191;
+}
+
+.course .courseinfo .info-right {
+  color: #434343;
+}
+
+.record-item {
+  padding: 0 20rpx;
+  background-color: #fff;
+  margin-bottom: 20rpx;
+}
+
+.record-item .recordtime {
+  height: 80rpx;
+  line-height: 80rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.record-item .recordnum {
+  padding: 20rpx 0;
+}

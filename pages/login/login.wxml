@@ -1,0 +1,19 @@
+<!--pages/login/login.wxml-->
+<!-- <text>pages/login/login.wxml</text> -->
+
+<view class="container">
+
+  <view class="logowrap">
+    <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1603883176966&di=679322a5cde0630ead0a45beb47424d5&imgtype=0&src=http%3A%2F%2Fpic.16pic.com%2F00%2F01%2F63%2F16pic_163763_b.jpg"></image>
+  </view>
+  <view class="phoneinput">
+    <image src="/assets/mobilephone.png"></image>
+    <input type="number" maxlength="11" placeholder="请输入手机号" bindinput="phoneInput" />
+  </view>
+  <view class="codeinput">
+    <image src="/assets/code.png"></image>
+    <input type="number" placeholder="请输入验证码" bindinput="codeInput" />
+    <button bindtap="codeClick" size="mini" style="width:250rpx" disabled="{{isdisab}}">{{timeCountDownTop}}</button>
+  </view>
+  <view class="loginbtn" bindtap="loginClick">登录</view>
+</view>

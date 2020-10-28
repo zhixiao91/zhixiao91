@@ -1,0 +1,25 @@
+<!--pages/message/message.wxml-->
+<!-- <text>pages/message/message.wxml</text> -->
+
+<view class="container">
+  <view class="noticetypeview">
+    <block wx:for="{{noticetypelist}}" wx:key="noticetitem">
+      <view class="typeitem {{idx==item.id?'selectbc':''}}" bindtap="select" data-id="{{item.id}}">{{item.type}}</view>
+    </block>
+  </view>
+  <view class="messagelistview bgcWhite">
+    <block wx:for="{{messeagList}}" wx:key="listiten">
+      <view class="item" bindtap="messageClick">
+        <view class="leftview">
+          <image class="mesagelogo" src="{{item.thumbnail_pic_s}}"></image>
+        </view>
+        <view class="centerview">
+          <view class="noticetitle">{{item.title}}</view>
+          <view class="noticestudents">学员：<text class="name">张三</text></view>
+          <view class="noticecontent">方便家长了解报道信息及注意事项</view>
+        </view>
+        <view class="rightview fz14">2019-06-12</view>
+      </view>
+    </block>
+  </view>
+</view>

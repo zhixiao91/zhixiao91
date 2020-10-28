@@ -1,0 +1,29 @@
+<!--pages/signcourses/signcourses.wxml-->
+<!-- <text>pages/signcourses/signcourses.wxml</text> -->
+<view class="container">
+  <block wx:for="{{[1,2,3]}}" wx:key="coursekey">
+    <view class="itemview">
+      <view class="coursetitle">达芬奇美术</view>
+      <view class="lineview"></view>
+      <view class="courseinfo">
+        <view class="info-left">学员：<text class="info-right">张三</text></view>
+        <view class="info-left">校区：<text class="info-right">北京校区</text></view>
+        <view class="info-left">购买课时：<text class="info-right">46</text></view>
+        <view class="info-left">剩余课时：<text class="info-right">45</text></view>
+      </view>
+      <view class="gradeinfoview" bindtap="onRecordClick">
+        <view class="gradetitle">
+          <text class="gradename">北京校区达芬奇美术1班</text>
+          <text class="gradetype">在读</text>
+        </view>
+        <view class="boxview">
+          <view class="info-left">教师：<text class="info-right">李老师</text></view>
+          <view class="info-left">教室：<text class="info-right">美术教室</text></view>
+          <view class="info-left">已用课时：<text class="info-right">1.00</text></view>
+        </view>
+        <view class="lineview"></view>
+        <view class="lookdetail">查看详情</view>
+      </view>
+    </view>
+  </block>
+</view>

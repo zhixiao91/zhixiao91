@@ -1,0 +1,163 @@
+
+/* 全局设置谁有页面属性 */
+page {
+  color: #000;
+  background-color: #f2f2f2;
+}
+
+.line {
+  height: 2rpx;
+  background-color: #ededed;
+}
+
+/* 字体大小 */
+.fz10 {
+  font-size: 20rpx;
+}
+.fz12 {
+  font-size: 24rpx;
+}
+.fz13 {
+  font-size: 26rpx;
+}
+.fz14 {
+  font-size: 28rpx;
+}
+.fz15 {
+  font-size: 30rpx;
+}
+.fz16 {
+  font-style: 32rpx;
+}
+.fz18 {
+  font-style: 36rpx;
+}
+.fz20 {
+  font-style: 40rpx;
+}
+/* 字体加粗 */
+.fwb {
+  font-weight: 700;
+}
+
+/* 外边距 */
+.mg10 {
+  margin: 20rpx;
+}
+.mgt10 {
+  margin-top: 20rpx;
+}
+.mgr10 {
+  margin-right: 20rpx;
+}
+.mgb10 {
+  margin-bottom: 20rpx;
+}
+.mgl10 {
+  margin-left: 20rpx;
+}
+
+.mgt5 {
+  margin-top: 10rpx;
+}
+.mgr5 {
+  margin-right: 10rpx;
+}
+.mgb5 {
+  margin-bottom: 10rpx;
+}
+.mgl5 {
+  margin-left: 10rpx;
+}
+
+/* 内边距 */
+.pd10 {
+  padding: 20rpx;
+}
+.pdt10 {
+  padding-top: 20rpx;
+}
+.pdr10 {
+  padding-right: 20rpx;
+}
+.pdb10 {
+  padding-bottom: 20rpx;
+}
+.pdl10 {
+  padding-left: 20rpx;
+}
+
+.pdt5 {
+  padding-top: 10rpx;
+}
+.pdr5 {
+  padding-right: 10rpx;
+}
+.pdb5 {
+  padding-bottom: 10rpx;
+}
+.pdl5 {
+  padding-left: 10rpx;
+}
+
+/* 背景颜色 */
+.bgcWhite {
+  background-color: #fff;
+}
+.bgcBlue {
+  background-color: #1296db;
+}
+
+/* 字体颜色 */
+.colorgray {
+  color: #8a8a8a;
+}
+.colorblack {
+  color: #000;
+}
+.colorblue {
+  color: #1296db;
+}
+.colorwhite {
+  color: #fff;
+}
+.colorred {
+  color: #f50;
+}
+
+/* 行高和行间距高 */
+.h40 {
+  height: 80rpx;
+  line-height: 80rpx;
+}
+
+image {
+  width: 100%;
+  height: 100%;
+}
+
+/* 圆角尺寸 */
+.bdr5 {
+  border-radius: 10rpx;
+  border: 2rpx solid ;
+}
+
+/* 1.单行 */
+.singlenowrap {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* 2.多行 */
+.doublenowrap {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display:-webkit-box;
+  -webkit-box-orient:vertical;
+  /* 显示的行数 */
+  -webkit-line-clamp:2;
+}
+
+.maxwidth {
+  max-width: 100%;
+}

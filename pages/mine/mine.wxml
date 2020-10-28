@@ -1,0 +1,34 @@
+<!--pages/mine/mine.wxml-->
+<!-- <text>pages/mine/mine.wxml</text> -->
+
+<view class="container">
+  <view class="headerview bgcBlue">
+    <view class="logoview">
+      <image></image>
+    </view>
+    <view class="nickphoneview">
+      <view class="nickname">微信昵称</view>
+      <view class="phone">18233166872</view>
+    </view>
+  </view>
+
+  <view class="studentview">
+    <text>我的学员</text>
+    <view class="studentinfoview">
+      <image></image>
+      <text class="studentname">帐三</text>
+    </view>
+  </view>
+
+  <view class="listview">
+    <block wx:for="{{listitem}}" wx:key="kes">
+      <view class="itemview" bindtap="itemClick" data-item="{{item.title}}">
+        <image class="leftlogo" src="{{item.icon}}"></image>
+        <text class="lefttitle">{{item.title}}</text>
+        <text class="righttitle"></text>
+        <image class="pushimg" src="/assets/rightpush.png"></image>
+      </view>
+    </block>
+  </view>
+  <view class="switchaccount" bindtap="loginClick">切换账号</view>
+</view>

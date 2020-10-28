@@ -1,0 +1,22 @@
+/* components/title/title.wxss */
+
+.title_container {
+  height: 80rpx;
+  line-height: 80rpx;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2rpx solid #efefef;
+}
+
+.title_container .verticalline {
+  background-color: #1296db;
+  height: 60rpx;
+  width: 4rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+
+.title_container .titlecontent {
+  color: black;
+  font-size: 32rpx;
+}

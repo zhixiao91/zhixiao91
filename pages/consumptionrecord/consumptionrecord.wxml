@@ -1,0 +1,25 @@
+<!--pages/consumptionrecord/consumptionrecord.wxml-->
+<!-- <text>pages/consumptionrecord/consumptionrecord.wxml</text> -->
+<view class="container">
+  <view class="course">
+    <view class="coursetitle">达芬奇美术</view>
+    <view class="line"></view>
+    <view class="courseinfo">
+      <view class="info-left">学员：<text class="info-right">张三</text></view>
+      <view class="info-left">校区：<text class="info-right">北京校区</text></view>
+    </view>
+  </view>
+  <block wx:for="{{[1]}}" wx:key="key">
+    <view class="record-item">
+      <view class="recordtime">
+        <text>上课记录</text>
+        <text>2020-10-18</text>
+      </view>
+      <view class="line"></view>
+      <view class="recordnum">
+        <view>消耗课时：<text>1</text></view>
+        <view>上课教师：<text>张三</text></view>
+      </view>
+    </view>
+  </block>
+</view>

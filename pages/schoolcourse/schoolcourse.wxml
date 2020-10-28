@@ -1,0 +1,56 @@
+<!--pages/schoolcourse/schoolcourse.wxml-->
+<!-- <text>pages/schoolcourse/schoolcourse.wxml</text> -->
+<view>
+  <view class="swiper-tab">
+    <view class="tab-item {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">课程</view>
+    <view class="tab-item {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">商城</view>
+  </view>
+
+  <!-- <view class="coursbox">
+    <view hidden="{{currentTab!=0}}" class="leftbox">
+      <block wx:for="{{[1,1,1,1,1,1,1,1]}}" wx:key="key">
+        <view class="coursboxitem">
+          <image></image>
+          <text>美术基础</text>
+        </view>
+      </block>
+    </view>
+    <view hidden="{{currentTab!=1}}">商城</view>
+  </view> -->
+  
+
+  <swiper current="{{currentTab}}" class="swiper" duration="300" style="height:{{winHeight - 40}}px" bindchange="bindChange">
+    <swiper-item>
+      <scroll-view scroll-y="true">
+        <view class="coursbox">
+          <block wx:for="{{[1,1,1,1,1,1,1,1]}}" wx:key="key">
+            <view class="coursboxitem" bindtap="onCouseDetailClick">
+              <image></image>
+              <view class="courseprice fz14 pd10">
+                <text class="singlenowrap">美术基础范德萨卷发棒范德萨打算复读</text>
+                <text class="colorgray fz12 singlenowrap mgt5">适合零基础范德萨发生范德萨范德萨范德萨</text>
+                <text class="colorred fz15 mgt5">￥39.90</text>
+              </view>
+            </view>
+          </block>
+        </view>
+      </scroll-view>
+    </swiper-item>
+    <swiper-item>
+      <scroll-view scroll-y="true">
+        <view class="coursbox">
+          <block wx:for="{{[1,1,1,1,1,1,1,1]}}" wx:key="key">
+            <view class="coursboxitem">
+              <image></image>
+              <view class="courseprice fz14 pd10">
+                <text class="singlenowrap">架子鼓</text>
+                <text class="colorgray fz12 singlenowrap mgt5">适合零基础范德萨发生范德萨范德萨范德萨</text>
+                <text class="colorred fz15 mgt5">￥1999.00</text>
+              </view>
+            </view>
+          </block>
+        </view>
+      </scroll-view>
+    </swiper-item>
+  </swiper>
+</view>

@@ -1,0 +1,41 @@
+/* pages/tradingdetail/tradingdetail.wxss */
+/* page {
+  background-color: #fff;
+} */
+
+/* .wrap {
+  padding: 20rpx;
+} */
+.courseinfo {
+  padding: 0 20rpx 20rpx;
+}
+
+.coursename {
+  border-bottom: 2rpx solid #ededed;
+}
+
+.tradingtitle {
+  padding: 0 20rpx 20rpx;
+}
+
+.tradingtitle .tradingdetail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.paydetailbox {
+  padding: 0 20rpx;
+}
+
+.paydetailbox .payinfo {
+  padding: 20rpx 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.abright {
+  position: absolute;
+  right: 20rpx;
+}

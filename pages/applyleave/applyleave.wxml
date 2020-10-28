@@ -1,0 +1,22 @@
+<!--pages/applyleave/applyleave.wxml-->
+<!-- <text>pages/applyleave/applyleave.wxml</text> -->
+<view class="container">
+  <view class="time">2020-10-25 星期六</view>
+  <block wx:for="{{itemList}}" wx:key="item">
+    <view class="itemview" bindtap="onItemSelected" data-index="{{index}}">
+      <view class="selectimgview">
+        <image src="{{item.isSelected?'/assets/selected.png':'/assets/unselected.png'}}"></image>
+      </view>
+      <view class="course">
+        <text>08:00-09:00</text>
+        <text>素描基础班</text>
+      </view>
+      <view class="teacher">张三</view>
+    </view>
+  </block>
+  <view class="applycontent">
+    <textarea name="" id="" cols="30" rows="10" placeholder="请填写请假内容"></textarea>
+  </view>
+
+  <button type="primary" bindtap="onSubmitClick">提交</button>
+</view>

@@ -1,0 +1,60 @@
+/* pages/applyleave/applyleave.wxss */
+page {
+  background-color: #efefef;
+}
+
+.time {
+  height: 80rpx;
+  line-height: 80rpx;
+  padding: 0 20rpx;
+}
+
+.itemview {
+  padding: 20rpx;
+  background-color: #fff;
+  border-bottom: 2rpx solid #efefef;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.itemview .selectimgview {
+  width: 100rpx;
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemview .selectimgview image {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.itemview .course {
+  display: flex;
+  flex-direction: column;
+}
+
+.teacher {
+  position: absolute;
+  right: 20rpx;
+}
+
+.applycontent {
+  margin-top: 20rpx;
+  background-color: #fff;
+  padding: 20rpx;
+}
+
+.applycontent textarea {
+  border: 2rpx solid #efefef;
+  width: 100%;
+  border-radius: 10rpx;
+  padding: 10rpx;
+}
+
+button {
+  margin-top: 40rpx;
+}

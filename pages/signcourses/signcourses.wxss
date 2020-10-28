@@ -1,0 +1,72 @@
+/* pages/signcourses/signcourses.wxss */
+
+page {
+  background-color: #efefef;
+}
+
+.itemview {
+  margin-top: 20rpx;
+  background-color: #fff;
+  padding: 0 20rpx 20rpx;
+}
+
+.itemview .coursetitle {
+  height: 80rpx;
+  line-height: 80rpx;
+}
+
+.itemview .lineview {
+  background-color: #cecece;
+  height: 2rpx;
+}
+
+.itemview .courseinfo {
+  padding: 20rpx 0;
+  font-size: 28rpx;
+}
+
+
+.info-left {
+  color: #919191;
+}
+
+info-right {
+  color: #434343;
+}
+
+.gradeinfoview {
+  background-color: #efefef;
+  padding: 20rpx 20rpx 0;
+}
+
+.gradetitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.gradetitle .gradetype {
+  height: 30rpx;
+  background-color: orange;
+  color: white;
+  padding: 4rpx 10rpx;
+  font-size: 24rpx;
+  line-height: 30rpx;
+  border-radius: 10rpx;
+}
+
+.boxview {
+  font-size: 28rpx;
+  margin-top: 20rpx;
+}
+
+.gradeinfoview .lineview {
+  margin-top: 20rpx;
+}
+
+.lookdetail {
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 28rpx;
+}

@@ -1,0 +1,120 @@
+/* pages/mine/mine.wxss */
+
+page {
+  background-color: #fff;
+}
+
+.container {
+  margin: 0 20rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.headerview {
+  margin: 20rpx 0;
+  height: 200rpx;
+  display: flex;
+  align-content: center;
+  border-radius: 20rpx;
+}
+
+.headerview .logoview {
+  padding: 38rpx 30rpx; 
+}
+
+.headerview .logoview image {
+  width: 120rpx;
+  height: 120rpx;
+  background-color: red;
+  border: 4rpx solid white;
+  border-radius: 60rpx;
+}
+
+.headerview .nickphoneview {
+  padding: 38rpx 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
+
+.headerview .nickphoneview .nickname {
+  margin-top: 15rpx;
+  font-size: 32rpx;
+}
+
+.headerview .nickphoneview .phone {
+  margin-bottom: 15rpx;
+  font-size: 28rpx;
+}
+
+/* 我的学员 */
+.studentview {
+  border-radius: 20rpx;
+  margin-top: 20rpx;
+  padding: 30rpx;
+  box-shadow:2px 2px 10px #909090;
+}
+
+.studentview .studentinfoview {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30rpx;
+  /* #1c2326 */
+}
+
+.studentview .studentinfoview image {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 40rpx;
+  background-color: red;
+}
+
+.studentview .studentinfoview .studentname {
+  line-height: 80rpx;
+  margin-left: 20rpx;
+  color: #545757;
+}
+
+.listview {
+  margin-top: 40rpx;
+}
+.listview .itemview {
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2rpx solid #ededed;
+  align-items: center;
+}
+
+.listview .itemview .leftlogo {
+  width: 45rpx;
+  height: 45rpx;
+}
+
+.listview .itemview .lefttitle {
+  margin-left: 30rpx;
+  font-size: 28rpx;
+}
+
+.listview .itemview .pushimg {
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  right: 20rpx;
+}
+
+/* 切换账号 */
+.switchaccount {
+  margin: 80rpx auto 0;
+  margin-top: 80rpx;
+  text-align: center;
+  padding: 10rpx 30rpx;
+  font-size: 30rpx;
+  width: 200rpx;
+  border: 2rpx solid #d3d3d3;
+  border-radius: 40rpx;
+  align-content: center;
+  background-color: #f8f8f8;
+}
+

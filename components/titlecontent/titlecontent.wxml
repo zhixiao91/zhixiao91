@@ -1,0 +1,6 @@
+<!--components/title/title.wxml-->
+<!-- <text>components/title/title.wxml</text> -->
+<view class="title_container">
+  <view class="verticalline"></view>
+  <text class="titlecontent">{{titlecontent}}</text>
+</view>

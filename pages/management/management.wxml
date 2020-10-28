@@ -1,0 +1,17 @@
+<!--pages/management/management.wxml-->
+<!-- <text>pages/management/management.wxml</text> -->
+
+<view class="container">
+  <view class="headerbackimageview">
+    <image src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1577112821,1772266964&fm=26&gp=0.jpg"></image>
+  </view>
+  <!-- 功能菜单 -->
+  <view class="menusview bgcWhite">
+    <block wx:for="{{menus}}" wx:key="menukey">
+      <view class="item" bindtap="menuitemClick" data-id="{{item.id}}">
+        <image class="itemimage" src="{{item.itemlogo}}"></image>
+        <view class="itemname fz15">{{item.itemname}}</view>
+      </view>
+    </block>
+  </view>
+</view>

@@ -1,0 +1,35 @@
+/* pages/management/management.wxss */
+
+.headerbackimageview {
+  background-color: #ededed;
+  width: 100%;
+  height: 300rpx;
+}
+
+.headerbackimageview image {
+  width: 100%;
+  height: 100%;
+}
+
+.menusview {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.menusview .item {
+  width: 25%;
+  padding: 30rpx 0;
+  text-align: center;
+}
+
+.menusview .item .itemimage {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.menusview .item .itemname {
+  margin-top: 10rpx;
+  color: #4c5152;
+  font-size: 30rpx;
+}
