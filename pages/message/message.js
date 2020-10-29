@@ -78,21 +78,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
     this.selectMessageType(this.data.idx);
-    // var that = this;
-    // var prams = {
-    //   type: 'top',
-    //   key: '1d4b18227927307dc097b9f46be59835'
-    // }
-    // httpUtil.postRequest(api.IndexBanner, prams, function(res) {
-    //   console.log(res.result.data);
-    //   that.setData({
-    //     messeagList: res.result.data
-    //   })
-    // }, function(err) {
-    //   console.log(err);
-    // })
   },
 
   /**
