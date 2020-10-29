@@ -1,4 +1,4 @@
-// pages/courseslist/courseslist.js
+// pages/appointmentCourse/appointmentCourse.js
 
 var utils = require('../../timeUtils/timeUtils.js');
 
@@ -6,19 +6,10 @@ Page({
 
   /**
    * 页面的初始数据
-   * selectWeek 0代表的本周 1代表下一周 -1代表上一周
-   * timeBean 传递给组件的数据， 数据的格式在一开始的工具类中明确
    */
   data: {
     selectWeek: 0,
     timeBean: {}
-  },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-    
   },
 
   /**
@@ -81,6 +72,13 @@ Page({
   },
 
   /**
+   * 生命周期函数--监听页面加载
+   */
+  onLoad: function (options) {
+
+  },
+
+  /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
@@ -94,7 +92,7 @@ Page({
   /**
    * 生命周期函数--监听页面显示
    */
-  onShow: function (e) {
+  onShow: function () {
     wx.getSystemInfo({
       success: (result) => {
         this.setData({
@@ -121,7 +119,6 @@ Page({
       dateCurrentStr: d.getFullYear() + '-' + month + '-' + day,
       dateMonth: month + '月'
     });
-    
   },
 
   // 获取这周从周日到周六的日期
@@ -187,9 +184,19 @@ Page({
     });
   },
 
-  onApplyLeaveClick: function (e) {
+  onAppointmentClick: function (e) {
+    wx.showToast({
+      title: '预约成功',
+      icon: 'success',
+      duration: 2000
+    })
+  },
+
+  onAppointmentDetailClick: function (e) {
+    // let index = e.currentTarget.dataset.id;
+    // console.log(index);
     wx.navigateTo({
-      url: '/pages/applyleave/applyleave',
+      url: '/pages/appointmentDetail/appointmentDetail',
     })
   },
 

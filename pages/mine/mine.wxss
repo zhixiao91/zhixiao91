@@ -80,7 +80,7 @@ page {
   margin-top: 40rpx;
 }
 .listview .itemview {
-  height: 100rpx;
+  height: 90rpx;
   display: flex;
   flex-direction: row;
   border-bottom: 2rpx solid #ededed;

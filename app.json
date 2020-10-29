@@ -14,7 +14,9 @@
     "pages/consumptionrecord/consumptionrecord",
     "pages/applyleave/applyleave",
     "pages/tradingdetail/tradingdetail",
-    "pages/homework/homework"
+    "pages/homework/homework",
+    "pages/appointmentCourse/appointmentCourse",
+    "pages/appointmentDetail/appointmentDetail"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -8,7 +8,7 @@ Page({
     menus:[{
       id: '1',
       itemlogo: '/assets/institutions.png',
-      itemname: '机构详情'
+      itemname: '学校信息'
     }, {
       id: '2',
       itemlogo: '/assets/coursetable.png',
@@ -28,7 +28,7 @@ Page({
     }, {
       id: '6',
       itemlogo: '/assets/signup.png',
-      itemname: '机构课程'
+      itemname: '学校课程'
     }, {
       id: '7',
       itemlogo: '/assets/tradingrecord.png',
@@ -50,7 +50,9 @@ Page({
         url: '/pages/courseslist/courseslist',
       })
     } else if (e.currentTarget.dataset.id == '3') {
-      console.log('预约上课');
+      wx.navigateTo({
+        url: '/pages/appointmentCourse/appointmentCourse',
+      })
     } else if (e.currentTarget.dataset.id == '4') {
       wx.navigateTo({
         url: '/pages/signcourses/signcourses',

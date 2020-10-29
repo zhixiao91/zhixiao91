@@ -1,0 +1,29 @@
+<!--pages/appointmentDetail/appointmentDetail.wxml-->
+<!-- <text>pages/appointmentDetail/appointmentDetail.wxml</text> -->
+<view class="container">
+  <view class="bgcWhite pd10">
+    <view class="titlewrap">
+      <view class="coursetitle mgb10">美术素描基础课</view>
+      <view class="time fz14">2020-10-29</view>
+    </view>
+    <view class="fz14 colorgray">
+      <view>教师：<text class="colorblack">张三</text></view>
+      <view>教室：<text class="colorblack">美术401室</text></view>
+      <view>时间：<text class="colorblack">09:00-10:00</text></view>
+    </view>
+  </view>
+
+  <view class="studentswrap mgt10 pd10 bgcWhite">
+    <view class="leftwrap">
+      <image></image>
+      <view class="studentinfo fz14 mgl10">
+        <text>李易峰</text>
+        <text>剩余课时：38课时</text>
+      </view>
+    </view>
+    <view class="rightwrap fz14">
+      <view class="cancel mgr10" bindtap="onCancelClick">取消预约</view>
+      <view class="sign bgcBlue colorwhite" bindtap="onSignClick">签到</view>
+    </view>
+  </view>
+</view>

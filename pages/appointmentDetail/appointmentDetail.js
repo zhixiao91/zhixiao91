@@ -1,38 +1,40 @@
-// pages/mine/mine.js
+// pages/appointmentDetail/appointmentDetail.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    listitem:[{
-      icon: '/assets/switchschool.png',
-      title: '我的预约记录'
-    }, {
-      icon: '/assets/switchschool.png',
-      title: '切换机构'
-    }, {
-      icon: '/assets/modifyphone.png',
-      title: '修改手机号'
-    }]
+
   },
 
-  // 登录
-  loginClick:function (e) {
-    wx.navigateTo({
-      url: '/pages/login/login?title=登录',//带参数跳转页面动态修改导航栏
+  // 取消签到
+  onCancelClick:function (e) {
+    wx.showModal({
+      title: '提示',
+      content: '确定要取消吗？',
+      success (res) {
+        if (res.confirm) {
+          console.log('用户点击了确定')
+        } else if (res.cancel) {
+          console.log('用户点击了取消')
+        }
+      }
     })
   },
-
-  itemClick:function (e) {
-    var itemtitle = e.currentTarget.dataset.item;
-    if (itemtitle == '切换机构') {
-      console.log('切换机构');
-    } else {
-      wx.navigateTo({
-        url: '/pages/login/login?title=修改手机号',
-      })
-    }
+  // 签到
+  onSignClick: function (e) {
+    wx.showModal({
+      title: '提示',
+      content: '确定要签到吗？',
+      success (res) {
+        if (res.confirm) {
+          console.log('用户点击了确定')
+        } else if (res.cancel) {
+          console.log('用户点击了取消')
+        }
+      }
+    })
   },
 
   /**

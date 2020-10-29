@@ -19,14 +19,13 @@
   </view>
   <!-- 学校简介模块 -->
   <view class="introduction">
-    <!-- <titlecontent>学校简介</titlecontent> -->
     <view class="title">学校简介</view>
     <view class="introductiontext">{{schoolinformation.introduction}}</view>
   </view>
 
   <!-- 名师模块 -->
   <view class="teacherbox bgcWhite mgt10">
-    <view class="title">名师</view>
+    <view class="title">学校名师</view>
     <view class="teacherbox-spacing">
       <scroll-view class="scroll-view-H" scroll-x="true">
         <block wx:for="{{[1,1,1,1,1,1,1,1]}}" wx:key="key">

@@ -1,0 +1,28 @@
+<!--pages/appointmentCourse/appointmentCourse.wxml-->
+<!-- <text>pages/appointmentCourse/appointmentCourse.wxml</text> -->
+
+<view class="container">
+  <!-- 日历选择器 -->
+  <view class="calendarbox">
+    <weekCalender timeBean="{{timeBean}}" bind:lastWeek="lastWeek" bind:nextWeek="nextWeek" bind:dayClick="dayClick"></weekCalender>
+  </view>
+  <!-- 课程列表 -->
+  <view class="coursewrap">
+    <block wx:for="{{[1,1,1,1]}}" wx:key="course">
+      <view class="course-item bgcWhite" bindtap="onAppointmentDetailClick" data-id="{{index}}">
+        <view class="coursename">美术素描基础课</view>
+        <view class="cuurseinfo fz14 colorgray">
+          <view>教师：<text class="colorblack">张三</text></view>
+          <view>教室：<text class="colorblack">综合楼402</text></view>
+          <view>时间：<text class="colorblack">09:00-10:00</text></view>
+        </view>
+        <view class="line"></view>
+        <view class="leaveview">
+          <view class="leave bgcBlue" catchtap="onAppointmentClick">预约</view>
+        </view>
+      </view>
+    </block>
+  </view>
+
+  <view class="footerwrap">暂无更多课程</view>
+</view>

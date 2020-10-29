@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "机构详情",
+  "navigationBarTitleText": "学校信息",
   "usingComponents": {
     "titlecontent": "/components/titlecontent/titlecontent"
   }

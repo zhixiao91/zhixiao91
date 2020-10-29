@@ -1,0 +1,46 @@
+/* pages/appointmentDetail/appointmentDetail.wxss */
+.titlewrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.studentswrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.studentswrap .leftwrap {
+  display: flex;
+  flex-direction: row;
+} 
+
+.studentswrap .leftwrap image {
+  width: 80rpx;
+  height: 80rpx;
+  background-color: #f40;
+}
+
+.studentswrap .leftwrap .studentinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.studentswrap .rightwrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.studentswrap .rightwrap .cancel {
+  border: 2rpx solid #8a8a8a;
+  border-radius: 20rpx;
+  color: #8a8a8a;
+  padding: 5rpx 20rpx;
+}
+
+.studentswrap .rightwrap .sign {
+  border-radius: 20rpx;
+  padding: 5rpx 20rpx;
+}

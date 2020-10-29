@@ -1,0 +1,53 @@
+/* pages/appointmentCourse/appointmentCourse.wxss */
+
+.calendarbox {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.coursewrap {
+  margin-top: 230rpx;
+}
+
+/* 课程列表 */
+.course-item {
+  margin: 30rpx 20rpx 0;
+  border-radius: 20rpx;
+  padding: 30rpx 30rpx 0;
+  box-shadow:0 0 6rpx #909090;
+}
+
+.course-item .coursename {
+  font-size: 32rpx;
+}
+
+.course-item .cuurseinfo {
+  padding: 20rpx 0;
+}
+
+.course-item .leaveview {
+  height: 80rpx;
+  line-height: 80rpx;
+  color: white;
+  font-size: 28rpx;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.course-item .leaveview .leave {
+  width: 160rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  border-radius: 10rpx;
+}
+
+.footerwrap {
+  height: 80rpx;
+  margin-top: 30rpx;
+  text-align: center;
+  color: #909090;
+  font-size: 28rpx;
+}
