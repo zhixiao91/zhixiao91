@@ -1,0 +1,30 @@
+/* pages/reviewDetails/reviewDetails.wxss */
+.bottomline {
+  border-bottom: 2rpx solid #ededed;
+}
+
+.coursecontent {
+  border-radius: 10rpx;
+}
+
+.teacherreview {
+  padding: 0 20rpx 20rpx;
+}
+
+.teacherreview textarea {
+  border: 2rpx solid #efefef;
+  width: 100%;
+  border-radius: 10rpx;
+  background-color: #f2f2f2;
+  padding: 10rpx;
+}
+
+.submitwrap {
+  padding: 20rpx 30rpx;
+  border-radius: 20rpx;
+  background-color: #1296db;
+  color: #fff;
+  width: 300rpx;
+  margin: 40rpx auto 0;
+  text-align: center;
+}

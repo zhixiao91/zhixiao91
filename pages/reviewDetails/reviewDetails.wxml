@@ -1,0 +1,19 @@
+<!--pages/reviewDetails/reviewDetails.wxml-->
+<!-- <text>pages/reviewDetails/reviewDetails.wxml</text> -->
+<view class="container">
+  <view class="h40 bgcWhite pdl10 bottomline">北京校区达芬奇美术1班</view>
+  <view class="pdl10 pdr10 pdb10 bgcWhite">
+    <view class="h40">上课内容</view>
+    <view class="fz14">李四老师<text class="colorgray mgl10">10-07 17:15</text></view>
+    <view class="fz14 mgt2">美术基础，素描基础，好好学习天天向上</view>
+  </view>
+  <view class="pdl10 pdr10 pdb10 mgt10 bgcWhite">
+    <view class="h40">课堂点评</view>
+    <view class="fz14">上课记录号，啥都懂，多多努力，努力、认真，以后好好学习，不能迟到</view>
+  </view>
+  <view class="mgt10 bgcWhite teacherreview">
+    <view class="h40">您对老师的工作满意吗？</view>
+    <textarea name="" id="" cols="30" rows="10" placeholder="请输入评价内容..."></textarea>
+    <view class="submitwrap" bindtap="onSubmitevaluationClick">提交评价</view>
+  </view>
+</view>

@@ -16,7 +16,9 @@
     "pages/tradingdetail/tradingdetail",
     "pages/homework/homework",
     "pages/appointmentCourse/appointmentCourse",
-    "pages/appointmentDetail/appointmentDetail"
+    "pages/appointmentDetail/appointmentDetail",
+    "pages/classReviewDetail/classReviewDetail",
+    "pages/reviewDetails/reviewDetails"
   ],
   "window": {
     "backgroundTextStyle": "light",

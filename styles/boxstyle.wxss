@@ -70,6 +70,19 @@ page {
   margin-left: 10rpx;
 }
 
+.mgt2 {
+  margin-top: 4rpx;
+}
+.mgr2 {
+  margin-right: 4rpx;
+}
+.mgb2 {
+  margin-bottom: 4rpx;
+}
+.mgl2 {
+  margin-left: 4rpx;
+}
+
 /* 内边距 */
 .pd10 {
   padding: 20rpx;
@@ -139,7 +152,7 @@ image {
 /* 圆角尺寸 */
 .bdr5 {
   border-radius: 10rpx;
-  border: 2rpx solid ;
+  border: 2rpx solid #fff;
 }
 
 /* 1.单行 */

@@ -1,0 +1,17 @@
+<!--pages/classReviewDetail/classReviewDetail.wxml-->
+<!-- <text>pages/classReviewDetail/classReviewDetail.wxml</text> -->
+<view class="container">
+  <view class="itemwrap bgcWhite mg10" bindtap="onReviewDetailsClick">
+    <view class="leftwrap pdt10 pdl10 pdr10">
+      <view class="classname mgb5">北京校区达芬奇美术1班</view>
+      <view class="mgb2 fz14 colorgray">点评老师：<text class="colorblack">李四老师</text></view>
+      <view class="mgb2 fz14 colorgray">点评时间：<text class="colorblack">2020-10-31 17:15（周三）</text></view>
+      <view class="mgb10 fz14">
+        <view class="mgb5 colorgray">评价内容：</view>
+        <text>上课记录号，啥都懂，多多努力，努力、认真，以后好好学习，不能迟到</text>
+      </view>
+    </view>
+    <view class="rightwrap fz14 pd10">待评价</view>
+    <view class="reviewteacher" hidden="false">评价老师</view>
+  </view>
+</view>

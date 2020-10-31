@@ -58,7 +58,9 @@ Page({
         url: '/pages/signcourses/signcourses',
       })
     } else if (e.currentTarget.dataset.id == '5') {
-      console.log('课堂点评');
+      wx.navigateTo({
+        url: '/pages/classReviewDetail/classReviewDetail',
+      })
     } else if (e.currentTarget.dataset.id == '6') {
       wx.navigateTo({
         url: '/pages/schoolcourse/schoolcourse',
@@ -68,7 +70,6 @@ Page({
         url: '/pages/tradingrecord/tradingrecord',
       })
     } else {
-      console.log('请假');
       wx.navigateTo({
         url: '/pages/homework/homework',
       })

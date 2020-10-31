@@ -1,0 +1,25 @@
+/* pages/classReviewDetail/classReviewDetail.wxss */
+
+.itemwrap {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-shadow: 0 0 6rpx #909090;
+  border-radius: 20rpx;
+}
+
+.itemwrap .rightwrap {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #D2691E;
+  color: #fff;
+  border-radius: 0 20rpx 0 20rpx;
+}
+
+.itemwrap .reviewteacher {
+  border-top: 2rpx solid #ededed;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+}
